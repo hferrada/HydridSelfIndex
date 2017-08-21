@@ -4,7 +4,7 @@ This code is a 64-bits and extended version of the original Hybrid Index (HI) [1
 The original HI is a compressed text index designed for repetitive texts to solve pattern matching queries for a maximum pattern length M. This improved version extends its functionalities to locate patterns of any length and to reproduce any text segment (the typical extract/display operation). We continue using M as a threshold on pattern length for solving queries for pattern lengths at most M in a similar way as the original index, which is our optimal query time case, giving a trade-off between locate-time and space usage.
 
 Authors: H. Ferrada, D. Kempa and S. J. Puglisi. 
-{hferrada,dkempa,puglisi}@cs.helsinki.fi}
+{{hferrada,dkempa,puglisi}@cs.helsinki.fi}
 
 PREREQUISITES
 =============
