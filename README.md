@@ -17,7 +17,7 @@ MAKE
 2.- Edit the Makefile writing the variables SDSL_DIR and RMQ_DIR with the path where you installed the libraries. <br />
 3.- To make the library just execute the command 'make', this will create the file: 'hsi.a'. <br />
 
-Compile and Linking
+Compiling & Linking
 =========================
 To use the index you must compile your program linking 'hsi.a' and include the the header "HybridSelfIndex.h". In the Makefile file there are two tag in order to create/load the index from the examples cpp files build_hsi.cpp and load_hsi.cpp included here.
 
