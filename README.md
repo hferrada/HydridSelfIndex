@@ -33,4 +33,4 @@ References
 ===========
 Please, if you want to include this tool as part of a work or experiments, in your references include the paper [2] .<br />
 [1]. H. Ferrada, T. Gagie, T. Hirvola, and S. J. Puglisi. Hybrid indexes for repetitive datasets. Philosophical Transactions of the Royal Society A, 327, 2014. Aricle no. 2016. <br />
-[1]. H. Ferrada, D. Kempa and S. J. Puglisi. Hybrid indexing Revisited. To appear in Algorithm Engineering and Experiments (ALENEX18). 2018.
+[2]. H. Ferrada, D. Kempa and S. J. Puglisi. Hybrid indexing Revisited. To appear in Algorithm Engineering and Experiments (ALENEX18). 2018.
