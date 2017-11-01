@@ -8,8 +8,9 @@ Authors: H. Ferrada, D. Kempa and S. J. Puglisi.
 
 Requisites
 =============
-1.- The sdsl library, which is is available from: https://github.com/simongog/sdsl-lite <br />
-2.- The RMQ library, which is available from: https://github.com/hferrada/rmq <br />
+.- A compiler C++11 like than g++ version 4.9 or higher . <br />
+.- The sdsl library, which is is available from: https://github.com/simongog/sdsl-lite <br />
+.- The RMQ library, which is available from: https://github.com/hferrada/rmq <br />
 
 MAKE 
 ======
