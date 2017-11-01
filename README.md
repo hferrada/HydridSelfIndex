@@ -13,7 +13,7 @@ Requisites
 
 MAKE 
 ======
-1.- Install the libraries sdsl and rmq. <br />
+1.- Install the libraries sdsl and rmq. Nota the in our experiments we set the rmq blok size in 64, the faster configuration of the rmq library. To do that you have set RMQRMM64::BLK = RMQRMM64::SS = 64 in the header file oncludes/RMQRMM64.h before to compile it<br />
 2.- Edit the Makefile writing the variables SDSL_DIR and RMQ_DIR with the path where you have installed the libraries. <br />
 3.- To make the library just execute the command 'make', this will create the file: 'hsi.a'. <br />
 
