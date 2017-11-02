@@ -1,8 +1,8 @@
 SDSL_DIR=/home/ferrada
 RMQ_DIR=/home/ferrada/develop/RMQs/rmq
 
-CPP=g++ -std=c++11
-CPPFLAGS=-O9 -Wall -DVERBOSE
+CPP=g++
+CPPFLAGS=-std=c++11 -O3 -DNDEBUG -march=native
 INCLUDES=-I$(SDSL_DIR)/include/ -I$(RMQ_DIR)/includes/
 LIB=$(SDSL_DIR)/lib/libsdsl.a $(SDSL_DIR)/lib/libdivsufsort.a $(SDSL_DIR)/lib/libdivsufsort64.a $(RMQ_DIR)/rmqrmmBP.a
 OBJECTS=HybridSelfIndex.o
