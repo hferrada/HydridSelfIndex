@@ -1,7 +1,7 @@
 # HydridSelfIndex
 This code is a 64-bits and extended version of the original Hybrid Index (HI) [1], converting the HI in a compressed full-text index for any types of text (not only repetitive datasets).
 
-The original HI is a compressed text index designed for repetitive texts to locate occurrences of patterns for a maximum pattern length M. This code is an improved version that extends the original functionalities to locate patterns of any length and to reproduce any text segment (the typical extract/display operation). It continues receiving M, as input parameter, as a threshold on pattern length for solving queries for pattern lengths at most M in a similar way as the original index, which is our optimal query time case; when m>M we offer a new method to locate occurrences, which is asymptotically is not optimal, giving a trade-off between locate-time and space usage.
+The original HI is a compressed text index designed for repetitive texts to locate occurrences of patterns for a maximum pattern length M. This code is an improved version that extends the original functionalities to LOCATE patterns of any length and to reproduce any text segment (the typical EXTRACT/DISPLAY operation). It continues receiving M, as input parameter, as a threshold on pattern length for solving queries for pattern lengths at most M in a similar way as the original index, which is our optimal query time case; when m>M we offer a new method to locate occurrences, which is asymptotically is not optimal, giving a trade-off between locate-time and space usage.
 
 Authors: H. Ferrada, D. Kempa and S. J. Puglisi. 
 {{hferrada,dkempa,puglisi}@cs.helsinki.fi}
